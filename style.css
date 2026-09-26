@@ -1,0 +1,151 @@
+/* Element selector */
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f6f7;
+margin: 0;
+padding: 30px;
+color: #2c3e50;
+}
+
+/* Element selector */
+h1 {
+text-align: center;
+color: #2c3e50;
+}
+
+/* Header styling */
+header {
+text-align: center;
+margin-bottom: 30px;
+}
+
+/* ID selector */
+#add-expense {
+background-color: #d5f5e3;
+padding: 20px;
+margin: 20px auto;
+max-width: 600px;
+border-radius: 8px;
+}
+
+/* Direct child selector */
+.add-expense-section > h2 {
+color: #1e8449;
+}
+
+/* Form layout */
+form {
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+/* Negation pseudo-class */
+input:not([type="submit"]) {
+padding: 10px;
+border: 1px solid #bbb;
+border-radius: 4px;
+}
+
+/* Select styling */
+select {
+padding: 10px;
+border: 1px solid #bbb;
+border-radius: 4px;
+background-color: white;
+}
+
+/* Focus pseudo-class */
+input:focus,
+select:focus {
+outline: 2px solid #3498db;
+border-color: #3498db;
+}
+
+/* Button styling */
+button {
+margin-top: 10px;
+padding: 10px;
+background-color: #27ae60;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #219150;
+}
+
+/* ID selector */
+#your-expenses {
+background-color: #d6eaf8;
+padding: 20px;
+margin: 20px auto;
+max-width: 900px;
+border-radius: 8px;
+}
+
+/* Descendant selector */
+.expenses-section td {
+color: #34495e;
+}
+
+/* Table styling */
+table {
+width: 100%;
+border-collapse: collapse;
+background-color: white;
+}
+
+/* Table cells */
+th,
+td {
+border: 1px solid #aaa;
+padding: 12px;
+text-align: left;
+}
+
+/* Colored table header */
+thead {
+background-color: #3498db;
+color: white;
+}
+
+/* Position pseudo-class */
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+/* Hover pseudo-class */
+tbody tr:hover {
+background-color: #d5f5e3;
+}
+
+/* Instructions section */
+.instructions {
+max-width: 900px;
+margin: 20px auto;
+padding: 15px;
+background-color: #fff3cd;
+border-radius: 8px;
+}
+
+summary {
+cursor: pointer;
+font-weight: bold;
+}
+
+/* Video section */
+.video-section {
+max-width: 900px;
+margin: 20px auto;
+padding: 20px;
+text-align: center;
+background-color: #f5eef8;
+border-radius: 8px;
+}
+
+iframe {
+max-width: 100%;
+}
